@@ -1,4 +1,4 @@
-# aks-https-ingress
+# TLS on AKS Ingress with LetsEncrypt
 
 This guide demonstrates the process of setting up the NGINX ingress controller within an Azure Kubernetes Service (AKS) cluster. The ingress controller is specifically configured to utilize a fixed public IP address via an Azure Standard Load Balancer. To handle certificate management, the cert-manager project is deployed, automating the generation and setup of Let’s Encrypt certificates. Furthermore, it outlines the steps to integrate a custom domain with a certificate, allowing the application to run publicly.
 
